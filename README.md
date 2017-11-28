@@ -1,2 +1,2 @@
 # GCITask1-LearningToProgramWithHaiku
-Hello, this repository is about teh Google Code-In 2017 and the tasks that i have performed in it.
+Hello, this repository is about my first task in the GCI 2017, under the organization Haiku.
