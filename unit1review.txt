@@ -1,0 +1,77 @@
+
+LESSON 1
+
+Q1: WHAT IS MACHINE CODE?
+A1: Machine code is a set of instructions in binary or hexadecimal format to be read and executed by the computer or processor.
+
+Q2: WHAT IS SOURCE CODE?
+A2: Source code is a text listing of commands to be stored or executed in a computer or procrocessor, these can be interpreted through human means.
+
+LESSON 2
+
+Q3: WHAT ARE THE TWO WAYS OF ADDING COMMENTS TO YOUR CODE?
+A3: There are tow types of comments in C++, single and multi-line comments. Single comments start with a // and end on that line only wheares multi line comments start with /* and end with a */ and can be written over multiple lines.
+
+Q4: WHAT ARE THE FOUR TOOLS USED TO TURN SOURCE CODE INTO MACHINE CODE?
+A4: Source code goes through 4 stages before being executed or processed. Firstly, the source code goes through the prepocessor, which removes comments and looks at #include directories. Then, the code goes through the compiler and is converted into assembly code. Then, the assembly code goes through the assembler which converts into object code, which is somewhat similar to assembly code but it still bot ready for processors or computers. Finally, the object code goes through the linker which links object codes together, making a computer-interpretable code.
+
+Q5: NAME AND DEFINE TWO GENERAL CLASSES OF PROGRAMMING ERRORS
+A5: There are two broad categories of programming erros, syntactic and semantic. The compiler is responsible for syntactic errors, which are errors in syntax such as extra parentheses, missing semi-colons or incorrect capitalization. Semantic errors are errors in the logic of a perfectly acceptable code such as assumption about return values.
+
+Q6: WHAT IS THE NUMERICAL RESULT OF 10 % 4?
+A6: 2
+
+Q7: WHAT IS THE DIFFERENCE BETWEEN ++i and i++?
+A7: if i++ is used, the loop increments after running once whereas if ++i is used, the loop increments before it is run.
+
+Q8: WHAT IS A SHORTER WAY OF WRITING myVar = myVar * 25?
+A8: myVar *= 5;
+
+Q9: Why is == used instead of = for comparing two quantities?
+A9: = Is used for assignment. If = is used, it would mean that one quantity is assigned to the other whereas if == is used, the two values can be compared.
+
+Q10: WHAT IS THE printf PLACEHOLDER FOR FLOAT?
+A10: %f
+
+Q11: WHAT ARE PARAMETERS?
+A11: Parameters are input data to a function, also known as arguments. Parameters are variables inputted as data into functions.
+
+Q12: WHAT IS THE DIFFERENCE BETWEEN TYPE int and long?
+A12: int type can only store 4 bytes whereas long long type can store 8 BYTES.
+
+Q13: WHAT IS THE RESULT OF 10 / 4? 10.0/4.0?
+A13: The result of 10 / 4 will be 2 and the result of 10.0/4.0 will be 2.5.
+
+LESSON 4
+
+Q11: In the following code snippet, will anything be printed? Why?
+int i = 0;
+if (i)
+printf("Spam and eggs.\n");
+A11: No, as a value 0 would come out as false and would not pass in the if statement.
+
+Q12: . What operator should replace the word OR in the following code: if (a == b OR a == c)
+in order for the if statement to evaluate as true if either condition is true?
+A12: ||
+
+Q13: WHAT DO EACH OF THE THREE SECTIONSOF A FOR LOOP CONTROL BLOCK DO?
+A13: The first section declares the int type variable and sets it a value, the second section states the operator, or what condition the int must satisfy in order for the loop to increment and the third section increments the loop by 1 each time it runs.
+
+Q14: WHAT IS A SEGMENTATION FAULT?
+A14: A segmentation fault is when you exceed the storage value of an array.
+
+Q15: WHAT IS THE LAST VALID INDEX FOR AN ARRAY WITH 10 ELEMENTS?
+A15: 9
+
+Q16: WHY IS IT IMPORTANT TO INITIALIZE A POINTER TOWARDS A KNOWN GOOD VALUE OR NULL? 
+A16: If a pointer is not initialized to one of the above it may lead to an error in the program by guiding the code towards a faulty location.
+
+Q17: WHICH OF THESE IS A STRING, 'a' or "a"
+A17: 'a'
+
+Q18: A STRING IS AN ARRAY OF WHAT TYPE
+A18: A string is an array of characters.
+
+Q19: Which header file (#include) that we have been using contains helper functions for working with strings
+A19: <string.h>
+
