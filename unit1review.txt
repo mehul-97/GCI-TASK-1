@@ -58,7 +58,7 @@ Q13: WHAT DO EACH OF THE THREE SECTIONSOF A FOR LOOP CONTROL BLOCK DO?
 A13: The first section declares the int type variable and sets it a value, the second section states the operator, or what condition the int must satisfy in order for the loop to increment and the third section increments the loop by 1 each time it runs.
 
 Q14: WHAT IS A SEGMENTATION FAULT?
-A14: A segmentation fault is when you exceed the storage value of an array.
+A14: A segmentation fault is an attempt to access memory that doesn't belong to your program.
 
 Q15: WHAT IS THE LAST VALID INDEX FOR AN ARRAY WITH 10 ELEMENTS?
 A15: 9
