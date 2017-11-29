@@ -1,0 +1,77 @@
+
+LESSON 6
+
+Q1: WHAT ARE THE THREE TYPES OF LOOPS?
+A1: for loop, while loop and do loop.
+
+Q2: WHEN IS A SWITCH STATEMENT BETTER SUITED SUITED TO MAKING A DECISION THAN AN IF STATEMENT?
+A2: A switch statement is better when you have to make a choice from several different choices, or options.
+
+Q3: WHAT HAPPENS WHEN THE DEFAULT CASE IN A SWITCH STATEMENT IS NOT THE LAST CASE IN THE SWITCH STATEMENT?
+A3: Cases after the default statement will never be run as the default statement is literally the final statement.
+
+Q4: Rewrite the following code to use the conditional assignment operator to set the value of
+myVariable.
+if (myInt > 5)
+myVariable = 50;
+else
+myVariable = 100;
+A4: myVariable = (myInt > 5) ? 50:100
+
+LESSON 7
+
+Q1: WHICH MEMORY POOL IS BIGGER, THE STACK OR THE HEAP?
+A1: The heap
+
+Q2: WHAT IS A MEMORY LEAK?
+A2: A memory leak occurs when allocated memory from the heap is not freed.
+
+Q3: WHAT IS PORTABILITY?
+A3: Portability is the quality of being able to compile your code on more than one operating system with as little modification as possible, preferably without any.
+
+Q4: WHAT IS IT CALLED WHEN YOU TELL THE COMPILER TO TREAT ONE TYPE AS ANOTHER?
+A4: It is called Typecasting.
+
+Q5: WHAT IS THE DIFFERENCE BETWEEN malloc() and calloc()?
+A5: Calloc allocates memory, which is then filled with 0s whereas malloc simply allocates memory.
+
+Q6: WHAT IS THE NUMERICAL RESULT OF 7 & 0?
+A6: 0
+
+Q7: WHAT IS THE NUMERICAL RESULT OF 7 | 8?
+A7: 15
+
+Q8: WHAT DOES 33 LOOOK LIKE IN BINARY?
+A8: 00100001
+
+Q9: WHAT IS THE BINARY NUMBER 1000010 IN REGULAR DECIMAL NOTATION?
+A9: 66
+
+Q10: WHAT IS THE NUMERICAL RESULT OF 1 << 5?
+A10: 32
+
+LESSON 8
+
+Q1: WHAT IS THE SCOPE OF A VARIABLE?
+A1: The scope is the lifspan of the variable, from when it is declared and allocated to when it is freed.
+
+Q2: WHAT ARE THE THREE TYPES OF SCOPE?
+A2: Local, global and static.
+
+Q3: What part(s) of the following pointer declaration is constant: the value, the pointer's address, or both?
+int * const myPointer;
+A3: It is a pointer whose value can be changed but not the address.
+
+Q4: WHERE DOES ANYTHING NORMALLY  WRITTEN TO stderr NORMALLY GO?
+A4: It is printed to the screen
+
+Q5: WHAT IS A HANDLE? 
+A5: It is an arbirary number used to identufy objects such as files.
+
+Q6: If you want to write data to the end of an existing file, what mode must be specified in a call to fopen()?
+A6: You have to use "a" or "a+" modes in fopen()
+
+LESSON 9
+
+Q1: How many rows are in the following multidimensional array: float myFloatArray[10][20]?
+A1: Ten rows
